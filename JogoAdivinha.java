@@ -23,7 +23,7 @@ public class JogoAdivinha {
             }
 
             System.out.println("Que pena, você errou." +
-                    " Mas o número que você inseriu é " + comparacao + " do que o numero gerado." + numeroGerado);
+                    " Mas o número que você inseriu é " + comparacao + " do que o numero gerado.");
             if (numeroTentativas < 5) {
                 System.out.println("Ainda restam " + (5 - numeroTentativas) + " tentativas. Tente novamente!");
 
